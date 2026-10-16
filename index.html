@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <script>document.documentElement.classList.add("js");</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pino Caribe — Industria forestal</title>
+  <meta name="description" content="Pino Caribe: desarrollo forestal, aserrío y comercialización de madera con estándares industriales desde el sur de Monagas, Venezuela.">
+  <meta name="theme-color" content="#153e34">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_VE">
+  <meta property="og:title" content="Pino Caribe — Industria forestal">
+  <meta property="og:description" content="Desarrollamos, producimos y aserramos madera con estándares para construir oportunidades en Venezuela y el mundo.">
+  <meta property="og:image" content="https://images.pexels.com/photos/29374321/pexels-photo-29374321.jpeg?auto=compress&cs=tinysrgb&w=1200">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Crect width='60' height='60' fill='%23153e34'/%3E%3Ccircle cx='30' cy='30' r='24' fill='none' stroke='%23bd9871' stroke-width='2'/%3E%3Cpath d='M30 14l8 16h-5l6 11H21l6-11h-5z' fill='%23f7f5ef'/%3E%3Cpath d='M30 44v-6' stroke='%23bd9871' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,700&display=swap"></noscript>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Pino Caribe","description":"Industria forestal: desarrollo, producción y aserrío de madera.","areaServed":"VE","address":{"@type":"PostalAddress","addressRegion":"Monagas","addressCountry":"VE"}}
+  </script>
+</head>
+<body class="w-full">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <header id="site-header" class="site-header fixed inset-x-0 top-0 z-40 w-full border-b border-[#bd9871]/40 bg-[#153e34] text-white shadow-lg">
+    <div class="wrap flex items-center justify-between gap-5 py-3">
+      <a href="#inicio" class="flex min-w-0 items-center gap-3" aria-label="Pino Caribe, ir al inicio">
+        <svg width="45" height="45" viewBox="0 0 60 60" fill="none" aria-hidden="true" class="shrink-0">
+          <circle cx="30" cy="30" r="26" stroke="#BD9871" stroke-width="1.5"></circle>
+          <path d="M13 33c2-13 13-22 25-18M17 39c-1-12 8-21 20-21M21 44c-3-9 2-18 11-22" stroke="#BD9871" stroke-width="1.4" stroke-linecap="round"></path>
+          <path d="M34 49V17m0 3-9 13h6l-7 9h20l-7-9h6l-9-13Z" fill="#F7F5EF"></path>
+        </svg>
+        <span class="min-w-0">
+          <span class="serif block font-bold leading-tight text-[23px]">Pino Caribe</span>
+          <span class="block truncate text-[11px] font-semibold uppercase tracking-widest text-[#d6bb99]">Nombre legal por definir</span>
+        </span>
+      </a>
+
+      <nav aria-label="Navegación principal" class="hidden items-center gap-6 font-semibold lg:flex">
+        <a class="nav-link transition-colors" href="#empresa">Empresa</a>
+        <a class="nav-link transition-colors" href="#proceso">Proceso</a>
+        <a class="nav-link transition-colors" href="#productos">Productos</a>
+        <a class="nav-link transition-colors" href="#calidad">Calidad</a>
+        <a class="nav-link transition-colors" href="#mercados">Mercados</a>
+        <a class="nav-link transition-colors" href="#sostenibilidad">Sostenibilidad</a>
+        <a class="nav-cta font-semibold" href="#contacto">Escríbanos</a>
+      </nav>
+
+      <button id="menu-toggle" type="button" class="border border-white/40 p-2 lg:hidden" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú">
+        <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <nav id="mobile-nav" inert aria-label="Navegación móvil" class="border-t border-white/20 bg-[#102e27] px-5 lg:hidden">
+      <div class="flex flex-col gap-4 py-5 font-semibold">
+        <a class="transition-colors" href="#empresa">Empresa</a>
+        <a class="transition-colors" href="#proceso">Proceso</a>
+        <a class="transition-colors" href="#productos">Productos</a>
+        <a class="transition-colors" href="#calidad">Calidad</a>
+        <a class="transition-colors" href="#mercados">Mercados</a>
+        <a class="transition-colors" href="#sostenibilidad">Sostenibilidad</a>
+        <a class="text-[#d6bb99] transition-colors" href="#contacto">Escríbanos</a>
+      </div>
+    </nav>
+  </header>
+  <div id="menu-scrim" class="fixed inset-0 z-30 hidden bg-black/60 lg:hidden" aria-hidden="true"></div>
+
+  <main id="contenido" tabindex="-1">
+    <!-- ================= HERO ================= -->
+    <section id="inicio" class="hero relative flex w-full items-center overflow-hidden bg-[#102e27] pt-24 text-white">
+      <img
+        src="https://images.pexels.com/photos/29374321/pexels-photo-29374321.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        srcset="https://images.pexels.com/photos/29374321/pexels-photo-29374321.jpeg?auto=compress&cs=tinysrgb&w=960 960w, https://images.pexels.com/photos/29374321/pexels-photo-29374321.jpeg?auto=compress&cs=tinysrgb&w=1440 1440w, https://images.pexels.com/photos/29374321/pexels-photo-29374321.jpeg?auto=compress&cs=tinysrgb&w=1920 1920w"
+        sizes="100vw" width="1502" height="2982" fetchpriority="high" decoding="async"
+        class="absolute inset-0 h-full w-full object-cover" alt="Árboles altos y troncos apilados en un entorno forestal durante el día">
+      <div class="hero-shade absolute inset-0" aria-hidden="true"></div>
+      <div class="aurora aurora-a" aria-hidden="true"></div>
+      <div class="hero-spotlight" id="hero-spotlight" aria-hidden="true"></div>
+
+      <div class="relative z-10 wrap pt-20 pb-36 md:pt-24 md:pb-40">
+        <div class="max-w-4xl hero-rule">
+          <p class="eyebrow mb-7 text-[#d6bb99] reveal" data-reveal style="--d:80ms">Origen · Industria · Futuro</p>
+          <h1 data-split-words data-base="160" class="font-bold">Pino Caribe con visión de futuro</h1>
+          <p class="mt-8 max-w-2xl text-[1.25rem] leading-relaxed text-[#f0eee7] reveal" data-reveal style="--d:520ms">Desarrollamos, producimos y aserramos madera con estándares para construir oportunidades en Venezuela y el mundo.</p>
+          <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a href="#empresa" class="btn btn-primary shine reveal w-full sm:w-auto" data-reveal style="--d:640ms">Conocer la empresa</a>
+            <a href="#productos" class="btn btn-ghost reveal w-full sm:w-auto" data-reveal style="--d:740ms">Ver catálogo</a>
+          </div>
+          <p class="hud mt-9 flex items-center gap-3 text-[#d6bb99] reveal" data-reveal style="--d:860ms"><span class="pulse-dot"></span>Monagas · Venezuela</p>
+        </div>
+      </div>
+
+      <div class="hero-strip">
+        <div class="strip-grid" role="group" aria-label="Datos clave de la empresa" tabindex="0">
+          <div class="strip-cell">
+            <span class="hud">Origen</span>
+            <span class="strip-sub">Sur del estado Monagas</span>
+          </div>
+          <div class="strip-cell">
+            <span class="hud">Especie</span>
+            <span class="strip-sub">Pino Caribe</span>
+          </div>
+          <div class="strip-cell">
+            <span class="hud">Alcance</span>
+            <span class="strip-sub">Nacional e internacional · por confirmar</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute bottom-28 left-6 z-10 hidden items-center gap-3 text-[10px] font-bold tracking-[.3em] text-[#d6bb99] md:flex" aria-hidden="true">
+        SCROLL
+        <span class="relative block h-11 w-px bg-white/25">
+          <span class="scroll-cue absolute left-0 top-0 block h-4 w-px bg-[#bd9871]"></span>
+        </span>
+      </div>
+    </section>
+
+    <!-- ================= ALIANZAS ================= -->
+    <section id="alianzas" class="border-y border-[#a76c47]/45 bg-[#102e27] text-white">
+      <div class="wrap py-8 md:py-10">
+        <p class="text-center font-bold text-[#d6bb99] reveal" data-reveal>Marcas ilustrativas del sector</p>
+        <p class="mt-2 text-center text-sm text-[#b9c9c0] reveal" data-reveal style="--d:100ms">Logos reconstruidos como referencia visual — sustituir por alianzas y logos oficiales confirmados.</p>
+        <!-- Marcas reconstruidas como placeholder: sustituir por los logos oficiales cuando estén disponibles -->
+        <div class="logo-marquee mt-6" role="group" aria-label="Marcas ilustrativas del sector (placeholders)" tabindex="0">
+          <div class="logo-track">
+            <div class="logo-item">
+              <span class="brand" role="img" aria-label="Maderas del Orinoco">
+                <svg width="30" height="36" viewBox="0 0 30 36" aria-hidden="true"><path d="M15 2l7 11h-4l5 8H7l5-8H8zM15 16l8 13H7zM15 27v7" fill="none" stroke="#1d7a43" stroke-width="2.4" stroke-linejoin="round"/></svg>
+                <span class="brand-name text-sm text-[#1d7a43]">MADERAS<span class="brand-sub text-[#1d7a43]">del Orinoco</span></span>
+              </span>
+            </div>
+            <div class="logo-item">
+              <span class="brand" role="img" aria-label="Aglomerados Madereros Anagas C.A.">
+                <span class="brand-name text-[.95rem] leading-tight text-[#e07b1f]">Aglomerados<br>Madereros <span class="text-[#1d7a43]">ANAGAS C.A.</span></span>
+              </span>
+            </div>
+            <div class="logo-item">
+              <span class="brand" role="img" aria-label="Masisa">
+                <span class="brand-name text-xl tracking-[.08em] text-[#2e9e5b]">MASISA</span>
+              </span>
+            </div>
+            <div class="logo-item">
+              <span class="brand" role="img" aria-label="EPA">
+                <span class="brand-name text-2xl italic tracking-tight text-[#1f5fbf]">EPA<span class="block h-1 w-full bg-[#f2c200]"></span></span>
+              </span>
+            </div>
+            <div class="logo-item" aria-hidden="true">
+              <span class="brand">
+                <svg width="30" height="36" viewBox="0 0 30 36" aria-hidden="true"><path d="M15 2l7 11h-4l5 8H7l5-8H8zM15 16l8 13H7zM15 27v7" fill="none" stroke="#1d7a43" stroke-width="2.4" stroke-linejoin="round"/></svg>
+                <span class="brand-name text-sm text-[#1d7a43]">MADERAS<span class="brand-sub text-[#1d7a43]">del Orinoco</span></span>
+              </span>
+            </div>
+            <div class="logo-item" aria-hidden="true">
+              <span class="brand">
+                <span class="brand-name text-[.95rem] leading-tight text-[#e07b1f]">Aglomerados<br>Madereros <span class="text-[#1d7a43]">ANAGAS C.A.</span></span>
+              </span>
+            </div>
+            <div class="logo-item" aria-hidden="true">
+              <span class="brand">
+                <span class="brand-name text-xl tracking-[.08em] text-[#2e9e5b]">MASISA</span>
+              </span>
+            </div>
+            <div class="logo-item" aria-hidden="true">
+              <span class="brand">
+                <span class="brand-name text-2xl italic tracking-tight text-[#1f5fbf]">EPA<span class="block h-1 w-full bg-[#f2c200]"></span></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 01 EMPRESA ================= -->
+    <section id="empresa" class="section-pad border-b border-[#d3d1c7] bg-[#f7f5ef]">
+      <div class="wrap">
+        <p class="section-index mb-5 text-[#8a5433]">01 / Nuestra propuesta</p>
+        <div class="flex flex-wrap items-end justify-between gap-6">
+          <h2 class="max-w-xl text-[#153e34] reveal" data-reveal>Naturaleza y precisión, en una misma dirección.</h2>
+          <p class="max-w-md border-l-2 border-[#a76c47] pl-4 text-[#49534c] reveal" data-reveal style="--d:150ms">Tres ideas ordenan nuestra propuesta comercial: cómo nace el material, cómo se produce y hacia dónde viaja.</p>
+        </div>
+
+        <div class="mt-10 grid gap-5 md:grid-cols-3">
+          <article class="spot-card brackets border border-[#d3d1c7] bg-white p-6 md:p-7 reveal" data-reveal style="--d:0ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <span class="eyebrow mb-8 block text-[#8a5433]">01 — Origen</span>
+            <h3 class="mb-3 text-[#153e34]">Origen responsable</h3>
+            <p class="leading-relaxed text-[#59615b]">Un enfoque forestal cuyo alcance y prácticas específicas están por documentar.</p>
+          </article>
+          <article class="spot-card brackets border border-[#d3d1c7] bg-white p-6 md:p-7 reveal" data-reveal style="--d:140ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <span class="eyebrow mb-8 block text-[#8a5433]">02 — Proceso</span>
+            <h3 class="mb-3 text-[#153e34]">Precisión industrial</h3>
+            <p class="leading-relaxed text-[#59615b]">Productos y especificaciones sujetos a confirmación por el equipo comercial.</p>
+          </article>
+          <article class="spot-card brackets border border-[#d3d1c7] bg-white p-6 md:p-7 reveal" data-reveal style="--d:280ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <span class="eyebrow mb-8 block text-[#8a5433]">03 — Alcance</span>
+            <h3 class="mb-3 text-[#153e34]">Proyección internacional</h3>
+            <p class="leading-relaxed text-[#59615b]">Una visión orientada a conectar oportunidades nacionales e internacionales.</p>
+          </article>
+        </div>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-3">
+          <div class="stat-chip reveal" data-reveal style="--d:0ms">
+            <span class="stat-num" data-ticker="4">04</span>
+            <span class="hud">Etapas de proceso</span>
+          </div>
+          <div class="stat-chip reveal" data-reveal style="--d:120ms">
+            <span class="stat-num" data-ticker="4">04</span>
+            <span class="hud">Categorías de producto</span>
+          </div>
+          <div class="stat-chip reveal" data-reveal style="--d:240ms">
+            <span class="stat-num" data-ticker="1">01</span>
+            <span class="hud">Especie: Pino Caribe</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 02 PROCESO ================= -->
+    <section id="proceso" class="section-pad grid-sweep technical-grid bg-[#252b28] text-white">
+      <div class="wrap">
+        <div class="flex flex-wrap items-end justify-between gap-6">
+          <div>
+            <p class="section-index mb-5 text-[#d6bb99]">02 / La cadena de valor</p>
+            <h2 class="reveal" data-reveal>Del bosque al producto</h2>
+          </div>
+          <div class="stat reveal" data-reveal="right" style="--d:150ms">
+            <span class="stat-num" data-ticker="4">04</span>
+            <span class="stat-label">etapas encadenadas de extremo a extremo</span>
+          </div>
+        </div>
+
+        <div class="chain mt-10" id="chain" aria-hidden="true">
+          <span class="chain-track"></span>
+          <span class="chain-node" style="left:12.5%"></span>
+          <span class="chain-node" style="left:37.5%"></span>
+          <span class="chain-node" style="left:62.5%"></span>
+          <span class="chain-node" style="left:87.5%"></span>
+          <span class="chain-drop" style="left:12.5%"></span>
+          <span class="chain-drop" style="left:37.5%"></span>
+          <span class="chain-drop" style="left:62.5%"></span>
+          <span class="chain-drop" style="left:87.5%"></span>
+        </div>
+
+        <div class="grid gap-px overflow-hidden border border-white/20 bg-white/20 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="spot-card spot-dark group relative bg-[#252b28] transition-colors duration-300 hover:bg-[#2c3331] reveal" data-reveal style="--d:0ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <div class="zoom-media">
+              <img src="https://images.pexels.com/photos/9054830/pexels-photo-9054830.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="card-image w-full" alt="Vista aérea de hileras de árboles de una plantación de referencia">
+            </div>
+            <div class="relative z-10 border-t-2 border-[#bd9871] p-6 transition-transform duration-300 group-hover:-translate-y-1">
+              <span class="eyebrow text-[#bd9871]">Etapa 01</span>
+              <h3 class="mt-4">Desarrollo forestal</h3>
+            </div>
+          </article>
+          <article class="spot-card spot-dark group relative bg-[#252b28] transition-colors duration-300 hover:bg-[#2c3331] reveal" data-reveal style="--d:120ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <div class="zoom-media">
+              <img src="https://images.pexels.com/photos/15128435/pexels-photo-15128435.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="530" loading="lazy" decoding="async" class="card-image w-full" alt="Troncos de coníferas apilados en un bosque">
+            </div>
+            <div class="relative z-10 border-t-2 border-[#bd9871] p-6 transition-transform duration-300 group-hover:-translate-y-1">
+              <span class="eyebrow text-[#bd9871]">Etapa 02</span>
+              <h3 class="mt-4">Selección y aprovechamiento</h3>
+            </div>
+          </article>
+          <article class="spot-card spot-dark group relative bg-[#252b28] transition-colors duration-300 hover:bg-[#2c3331] reveal" data-reveal style="--d:240ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <div class="zoom-media">
+              <img src="https://images.pexels.com/photos/12278591/pexels-photo-12278591.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="card-image w-full" alt="Tablas de madera sobre una cinta de producción">
+            </div>
+            <div class="relative z-10 border-t-2 border-[#bd9871] p-6 transition-transform duration-300 group-hover:-translate-y-1">
+              <span class="eyebrow text-[#bd9871]">Etapa 03</span>
+              <h3 class="mt-4">Aserrado y clasificación</h3>
+            </div>
+          </article>
+          <article class="spot-card spot-dark group relative bg-[#252b28] transition-colors duration-300 hover:bg-[#2c3331] reveal" data-reveal style="--d:360ms">
+            <span class="spot-glow" aria-hidden="true"></span>
+            <div class="zoom-media">
+              <img src="https://images.pexels.com/photos/12278570/pexels-photo-12278570.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="card-image w-full" alt="Madera ordenada en una instalación industrial de almacenamiento">
+            </div>
+            <div class="relative z-10 border-t-2 border-[#bd9871] p-6 transition-transform duration-300 group-hover:-translate-y-1">
+              <span class="eyebrow text-[#bd9871]">Etapa 04</span>
+              <h3 class="mt-4">Despacho y mercados</h3>
+            </div>
+          </article>
+        </div>
+        <p class="mt-7 border-l-2 border-[#bd9871] pl-4 text-[#d9e0da] reveal" data-reveal>Recorrido conceptual. Procesos, capacidades y documentación sujetos a confirmación de la empresa.</p>
+      </div>
+    </section>
+
+    <!-- ================= 03 PRODUCTOS ================= -->
+    <section id="productos" class="section-pad bg-[#eae9e2]">
+      <div class="wrap">
+        <p class="section-index mb-5 text-[#8a5433]">03 / Catálogo provisional</p>
+        <div class="flex flex-wrap items-end justify-between gap-6">
+          <h2 class="text-[#153e34] reveal" data-reveal>Soluciones en madera</h2>
+          <p class="max-w-md border-l-2 border-[#a76c47] pl-4 text-[#49534c] reveal" data-reveal style="--d:150ms">Categorías ilustrativas. Consulte disponibilidad y especificaciones antes de realizar un pedido.</p>
+        </div>
+
+        <div role="group" aria-label="Filtrar productos" class="filters mt-9">
+          <span class="filter-pill" id="filter-pill" aria-hidden="true"></span>
+          <button type="button" data-filter="todos" aria-pressed="true" class="filter-btn">Todos</button>
+          <button type="button" data-filter="tablas" aria-pressed="false" class="filter-btn">Tablas</button>
+          <button type="button" data-filter="listones" aria-pressed="false" class="filter-btn">Listones</button>
+          <button type="button" data-filter="vigas" aria-pressed="false" class="filter-btn">Vigas</button>
+          <button type="button" data-filter="aserrada" aria-pressed="false" class="filter-btn">Madera aserrada</button>
+        </div>
+        <p id="filter-status" class="filter-status mt-4 text-sm" role="status">Mostrando 4 de 4 categorías</p>
+
+        <div id="product-grid" class="mt-7 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+          <article data-category="tablas" class="product-card hover-lift flex flex-col border border-[#d3d1c7] bg-white reveal" data-reveal style="--d:0ms">
+            <div class="zoom-media scan-media glare">
+              <img src="https://images.pexels.com/photos/12278569/pexels-photo-12278569.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="product-image w-full" alt="Primer plano de tablas de madera apiladas">
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <p class="eyebrow text-[#8a5433]">Pino Caribe</p>
+              <h3 class="mt-2 text-[#153e34]">Tablas</h3>
+              <dl class="mt-5 border-t-2 border-[#153e34] text-sm">
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Grado</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Dimensiones</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Humedad</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Usos</dt><dd class="text-right font-semibold">Consultar</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Disponibilidad</dt><dd class="text-right font-semibold">Consultar</dd></div>
+              </dl>
+              <button type="button" data-product="Tablas" class="btn btn-dark shine mt-auto w-full text-[.95rem]">Solicitar ficha técnica</button>
+            </div>
+          </article>
+
+          <article data-category="listones" class="product-card hover-lift flex flex-col border border-[#d3d1c7] bg-white reveal" data-reveal style="--d:120ms">
+            <div class="zoom-media scan-media glare">
+              <img src="https://images.pexels.com/photos/5089146/pexels-photo-5089146.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="1200" loading="lazy" decoding="async" class="product-image w-full" alt="Piezas de madera ordenadas con vetas naturales visibles">
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <p class="eyebrow text-[#8a5433]">Pino Caribe</p>
+              <h3 class="mt-2 text-[#153e34]">Listones</h3>
+              <dl class="mt-5 border-t-2 border-[#153e34] text-sm">
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Grado</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Dimensiones</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Humedad</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Usos</dt><dd class="text-right font-semibold">Consultar</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Disponibilidad</dt><dd class="text-right font-semibold">Consultar</dd></div>
+              </dl>
+              <button type="button" data-product="Listones" class="btn btn-dark shine mt-auto w-full text-[.95rem]">Solicitar ficha técnica</button>
+            </div>
+          </article>
+
+          <article data-category="vigas" class="product-card hover-lift flex flex-col border border-[#d3d1c7] bg-white reveal" data-reveal style="--d:240ms">
+            <div class="zoom-media scan-media glare">
+              <img src="https://images.pexels.com/photos/5484741/pexels-photo-5484741.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="product-image w-full" alt="Madera estructural apilada en un área industrial exterior">
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <p class="eyebrow text-[#8a5433]">Pino Caribe</p>
+              <h3 class="mt-2 text-[#153e34]">Vigas</h3>
+              <dl class="mt-5 border-t-2 border-[#153e34] text-sm">
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Grado</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Dimensiones</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Humedad</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Usos</dt><dd class="text-right font-semibold">Consultar</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Disponibilidad</dt><dd class="text-right font-semibold">Consultar</dd></div>
+              </dl>
+              <button type="button" data-product="Vigas" class="btn btn-dark shine mt-auto w-full text-[.95rem]">Solicitar ficha técnica</button>
+            </div>
+          </article>
+
+          <article data-category="aserrada" class="product-card hover-lift flex flex-col border border-[#d3d1c7] bg-white reveal" data-reveal style="--d:360ms">
+            <div class="zoom-media scan-media glare">
+              <img src="https://images.pexels.com/photos/12278589/pexels-photo-12278589.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="product-image w-full" alt="Primer plano de tablas aserradas apiladas, con veta y textura visibles">
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <p class="eyebrow text-[#8a5433]">Pino Caribe</p>
+              <h3 class="mt-2 text-[#153e34]">Madera aserrada</h3>
+              <dl class="mt-5 border-t-2 border-[#153e34] text-sm">
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Grado</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Dimensiones</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Humedad</dt><dd class="text-right font-semibold">Por definir</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Usos</dt><dd class="text-right font-semibold">Consultar</dd></div>
+                <div class="flex justify-between gap-3 border-b border-[#d3d1c7] py-2"><dt>Disponibilidad</dt><dd class="text-right font-semibold">Consultar</dd></div>
+              </dl>
+              <button type="button" data-product="Madera aserrada" class="btn btn-dark shine mt-auto w-full text-[.95rem]">Solicitar ficha técnica</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 04 CALIDAD ================= -->
+    <section id="calidad" class="grid bg-[#153e34] text-white lg:grid-cols-2">
+      <div class="scan-media relative h-80 w-full lg:h-auto">
+        <img src="https://images.pexels.com/photos/8251748/pexels-photo-8251748.jpeg?auto=compress&cs=tinysrgb&w=1280" width="1280" height="1959" loading="lazy" decoding="async" class="absolute inset-0 h-full w-full object-cover" alt="Anillos de crecimiento visibles en el corte de un tronco">
+      </div>
+      <div class="section-pad technical-grid px-6 md:px-14 lg:px-20">
+        <p class="section-index mb-5 text-[#d6bb99]">04 / Calidad y trazabilidad</p>
+        <h2 class="max-w-xl reveal" data-reveal>Cada detalle merece claridad.</h2>
+        <p class="mt-7 max-w-xl leading-relaxed text-[#e2e9e2] reveal" data-reveal style="--d:120ms">Los criterios técnicos y mecanismos de trazabilidad se publicarán cuando hayan sido confirmados y documentados por la empresa.</p>
+        <div class="tech-list mt-9 reveal" data-reveal style="--d:80ms">
+          <div class="tech-row" style="--d:0ms">
+            <span class="hud text-[#bd9871]">01</span>
+            <span class="font-semibold">Control de materia prima</span>
+            <span class="chip-status">Pendiente</span>
+          </div>
+          <div class="tech-row" style="--d:140ms">
+            <span class="hud text-[#bd9871]">02</span>
+            <span class="font-semibold">Clasificación</span>
+            <span class="chip-status">Pendiente</span>
+          </div>
+          <div class="tech-row" style="--d:280ms">
+            <span class="hud text-[#bd9871]">03</span>
+            <span class="font-semibold">Secado o tratamiento</span>
+            <span class="chip-status">Pendiente</span>
+          </div>
+        </div>
+        <p class="tech-note mt-5 text-sm reveal" data-reveal style="--d:360ms">Sin certificaciones declaradas ni cifras publicadas hasta su confirmación.</p>
+      </div>
+    </section>
+
+    <!-- ================= 05 MERCADOS ================= -->
+    <section id="mercados" class="section-pad bg-[#faf9f5]">
+      <div class="wrap grid items-center gap-12 lg:grid-cols-2">
+        <div>
+          <p class="section-index mb-5 text-[#8a5433]">05 / Origen y alcance</p>
+          <h2 class="text-[#153e34] reveal" data-reveal>Una empresa del sur de Monagas, conectada con el mundo.</h2>
+          <p class="mt-7 max-w-lg leading-relaxed text-[#59615b] reveal" data-reveal style="--d:130ms">Nuestra ubicación es el punto de partida de una visión comercial. Destinos, rutas y capacidad de despacho están por confirmar.</p>
+          <div class="index-list mt-8 border-t border-[#a76c47]/30 reveal" data-reveal style="--d:240ms">
+            <div class="il-row"><span class="hud">01</span><span class="font-semibold text-[#153e34]">Mercado nacional — destinos por definir</span></div>
+            <div class="il-row"><span class="hud">02</span><span class="font-semibold text-[#153e34]">Proyección internacional — destinos por definir</span></div>
+            <div class="il-row"><span class="hud">03</span><span class="font-semibold text-[#153e34]">Capacidad de despacho — por confirmar</span></div>
+          </div>
+        </div>
+        <div class="beam reveal" data-reveal="scale" style="--d:120ms">
+          <div class="beam-inner border border-[#153e34]">
+            <div class="border-b border-[#d3d1c7] bg-[#153e34] px-6 py-4 text-xs font-bold uppercase tracking-widest text-white">
+              Ficha de alcance comercial
+            </div>
+            <div class="grid md:grid-cols-3">
+              <div class="border-b border-[#d3d1c7] p-6 md:border-b-0 md:border-r">
+                <span class="eyebrow text-[#8a5433]">Origen</span>
+                <p class="mt-3 font-bold text-[#153e34]">Sur del estado Monagas, Venezuela</p>
+              </div>
+              <div class="border-b border-[#d3d1c7] p-6 md:border-b-0 md:border-r">
+                <span class="eyebrow text-[#8a5433]">Mercado nacional</span>
+                <p class="mt-3 font-bold text-[#153e34]">Destinos por definir</p>
+              </div>
+              <div class="p-6">
+                <span class="eyebrow text-[#8a5433]">Proyección internacional</span>
+                <p class="mt-3 font-bold text-[#153e34]">Destinos por definir</p>
+              </div>
+            </div>
+            <div class="map-area">
+              <span class="map-tag hud">Origen · Monagas</span>
+              <span class="map-marker" aria-hidden="true"></span>
+              <span class="map-route r1" style="--d:400ms"><span class="map-end"></span><span class="map-end-label hud">Por confirmar</span></span>
+              <span class="map-route r2" style="--d:600ms"><span class="map-end"></span><span class="map-end-label hud">Por confirmar</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 06 SOSTENIBILIDAD ================= -->
+    <section id="sostenibilidad" class="section-pad border-t border-[#d3d1c7] bg-[#f7f5ef]">
+      <div class="wrap grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div>
+          <p class="section-index mb-5 text-[#8a5433]">06 / Compromisos verificables</p>
+          <h2 class="text-[#153e34] reveal" data-reveal>Sostenibilidad con información que se pueda respaldar.</h2>
+          <p class="mt-7 leading-relaxed text-[#59615b] reveal" data-reveal style="--d:120ms">Este espacio está reservado para prácticas forestales, indicadores y evidencias aprobadas por la empresa. No se declaran cifras ni certificaciones sin respaldo.</p>
+          <div class="mt-8 grid gap-3">
+            <div class="evidence reveal" data-reveal style="--d:80ms">
+              <span class="evidence-box" aria-hidden="true"></span>
+              <span><span class="block font-bold text-[#153e34]">Prácticas forestales</span><span class="text-sm text-[#59615b]">Por completar con información de la empresa.</span></span>
+            </div>
+            <div class="evidence reveal" data-reveal style="--d:200ms">
+              <span class="evidence-box" aria-hidden="true"></span>
+              <span><span class="block font-bold text-[#153e34]">Indicadores verificables</span><span class="text-sm text-[#59615b]">Por completar con información de la empresa.</span></span>
+            </div>
+            <div class="evidence reveal" data-reveal style="--d:320ms">
+              <span class="evidence-box" aria-hidden="true"></span>
+              <span><span class="block font-bold text-[#153e34]">Certificaciones</span><span class="text-sm text-[#59615b]">Sin declarar hasta su confirmación.</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="reveal" style="--d:100ms">
+          <div class="mask-anim">
+            <img src="https://images.pexels.com/photos/11931598/pexels-photo-11931598.jpeg?auto=compress&cs=tinysrgb&w=1280" width="1280" height="853" loading="lazy" decoding="async" class="h-[370px] w-full border border-[#d3d1c7] object-cover md:h-[490px]" alt="Pino joven creciendo en un entorno natural">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 07 ESCRÍBENOS ================= -->
+    <section id="contacto" class="grid-sweep technical-grid relative overflow-hidden bg-[#102e27] text-white">
+      <div class="motes" id="motes" aria-hidden="true"></div>
+      <div class="wrap section-pad relative z-10 grid gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-16">
+        <div>
+          <p class="section-index mb-5 text-[#d6bb99]">07 / Escríbanos</p>
+          <h2 class="max-w-md" data-split-words data-base="60">Hablemos de su próximo proyecto.</h2>
+          <p class="mt-7 max-w-md leading-relaxed text-[#e2e9e2] reveal" data-reveal style="--d:260ms">Escríbenos directo al correo comercial. Cuéntenos qué necesita construir y qué volumen maneja: respondemos con disponibilidad y especificaciones por confirmar.</p>
+          <div class="index-list mt-9 border-t border-[#bd9871]/25 reveal" data-reveal style="--d:360ms">
+            <div class="il-row"><span class="hud">01</span><span><span class="block font-bold">Ubicación</span><span class="text-sm text-[#b9c9c0]">Sur del estado Monagas, Venezuela</span></span></div>
+            <div class="il-row"><span class="hud">02</span><span><span class="block font-bold">Respuesta</span><span class="text-sm text-[#b9c9c0]">Equipo comercial · por confirmar horario</span></span></div>
+            <div class="il-row"><span class="hud">03</span><span><span class="block font-bold">Medio</span><span class="text-sm text-[#b9c9c0]">Correo directo, sin formularios intermedios</span></span></div>
+          </div>
+        </div>
+
+        <div class="email-card reveal self-start" data-reveal="right" style="--d:120ms">
+          <p class="hud text-[#d6bb99]">Correo comercial</p>
+          <p class="mt-4">
+            <a class="email-slot" id="email-slot" href="mailto:comercial@pino-caribe.example">comercial@pino-caribe.example</a><span class="email-caret" aria-hidden="true"></span>
+          </p>
+          <span class="email-badge hud" id="email-badge">Correo por confirmar</span>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <button type="button" id="copy-email" class="btn btn-primary btn-copy shine">
+              <svg class="icon-copy" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <svg class="icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+              <span>Copiar correo</span>
+            </button>
+            <a id="email-mailto" class="btn btn-ghost" href="mailto:comercial@pino-caribe.example">Abrir en el correo</a>
+          </div>
+          <p id="copy-status" class="copy-status mt-5 text-sm" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-[#bd9871]/50 bg-[#102e27] py-12 text-white">
+    <div class="wrap flex flex-wrap justify-between gap-9">
+      <div>
+        <p class="serif text-2xl font-bold">Pino Caribe</p>
+        <p class="mt-1 text-sm text-[#c5d0c9]">Nombre legal por definir</p>
+        <p class="mt-3 text-sm text-[#c5d0c9]">Sur del estado Monagas, Venezuela</p>
+      </div>
+      <div>
+        <p class="mb-3 font-bold">Información legal</p>
+        <p class="text-sm text-[#c5d0c9]">Aviso legal y política de privacidad: enlaces por definir</p>
+      </div>
+      <div>
+        <p class="mb-3 font-bold">Redes y contacto</p>
+        <p class="text-sm text-[#c5d0c9]">Canales oficiales: por definir · Correo: <a class="underline decoration-[#bd9871]/60 underline-offset-4 hover:text-white" data-email-mirror href="mailto:comercial@pino-caribe.example">comercial@pino-caribe.example</a></p>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <a href="#contacto" class="btn btn-ghost !min-h-[42px] !px-5 !py-2 text-sm">Escríbanos</a>
+        <a href="#inicio" class="inline-flex min-h-[24px] items-center py-1.5 text-sm font-bold text-[#d6bb99] transition-colors hover:text-white">Volver al inicio ↑</a>
+      </div>
+    </div>
+    <div class="wrap mt-10 border-t border-white/10 pt-6 text-xs tracking-wide text-[#9fb3a8]">
+      © <span id="year">2026</span> Pino Caribe. Contenido provisional sujeto a confirmación.
+    </div>
+  </footer>
+
+  <!-- ================= MODAL FICHA TÉCNICA ================= -->
+  <div id="technical-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-[#0b211c]/85 p-3 backdrop-blur-sm sm:p-6" role="presentation">
+    <section role="dialog" aria-modal="true" aria-labelledby="modal-title" class="modal-panel max-h-[92vh] w-full max-w-3xl overflow-y-auto border border-[#bd9871] bg-[#f7f5ef] shadow-2xl">
+      <div class="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-[#d3d1c7] bg-[#153e34] px-6 py-4 text-white">
+        <div>
+          <p class="eyebrow text-[#d6bb99]">Información provisional</p>
+          <h2 id="modal-title" class="text-[1.6rem] font-bold">Ficha técnica por confirmar</h2>
+        </div>
+        <button id="close-modal" type="button" aria-label="Cerrar ficha técnica" class="shrink-0 border border-white/40 p-2 transition-colors hover:bg-white/15">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="grid gap-7 p-6 sm:p-9 md:grid-cols-2">
+        <img src="https://images.pexels.com/photos/12278589/pexels-photo-12278589.jpeg?auto=compress&cs=tinysrgb&w=800" width="800" height="533" loading="lazy" decoding="async" class="h-56 w-full object-cover md:h-full" alt="Detalle de tablas de madera apiladas; imagen provisional para la ficha">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-wide text-[#59615b]">Producto seleccionado</p>
+          <p id="modal-product-name" class="serif mb-5 text-2xl font-bold text-[#153e34]"></p>
+          <dl class="border-t-2 border-[#153e34] text-sm">
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Especie</dt><dd class="text-right font-semibold">Pino Caribe</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Especificaciones</dt><dd class="text-right font-semibold">Por definir</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Embalaje</dt><dd class="text-right font-semibold">Por definir</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Volumen mínimo</dt><dd class="text-right font-semibold">Consultar</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Tiempo de entrega</dt><dd class="text-right font-semibold">Consultar</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Documentación de exportación</dt><dd class="text-right font-semibold">Por confirmar</dd></div>
+            <div class="flex justify-between gap-4 border-b border-[#d3d1c7] py-3"><dt>Correo comercial</dt><dd class="text-right font-semibold" data-email-mirror>comercial@pino-caribe.example</dd></div>
+          </dl>
+          <a id="modal-contact" class="btn btn-dark mt-6" href="mailto:comercial@pino-caribe.example">Escribir por esta ficha</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
